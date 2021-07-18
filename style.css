@@ -1,0 +1,483 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul, li{
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color:#2e3949;
+    color: #fff;
+    height: 75px;
+}
+.header #logo{
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 250px;
+}
+.header>li{
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    position: relative;
+    left: 260px;
+    top: 26px;
+}
+.header #li4{
+    font-weight: bolder;
+}
+.header #loginbtn{
+    border: 1px solid #fff;
+    background-color: transparent;
+    width: 80px;
+    height: 33px;
+    color: #fff;
+    position: relative;
+    top: 19px;
+    left: 45%;
+    cursor: pointer;
+}
+.header #trialbtn{
+    border: none;
+    background-color: rgb(255, 209, 59);
+    width: 140px;
+    height: 33px;
+    text-align: center;
+    position: relative;
+    top: 19px;
+    left: 46%;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    height: 370px;
+}
+.title>h1{
+    font-weight: bolder;
+    font-size: 38px;
+    position: relative;
+    top: 100px;
+}
+.title>h3{
+    font-weight: normal;
+    position: relative;
+    top: 117px;
+    color: rgb(41, 40, 40);
+}
+.title #trialbtn2{
+    background-color: rgb(255, 209, 59);
+    width: 200px;
+    height: 53px;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 7px;
+    position: relative;
+    top: 160px;
+    box-shadow: 0px 1px 0px 0px rgb(199, 199, 199);
+    cursor: pointer;
+}
+.pricing__toggler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    padding-top: 90px;
+
+}
+.pricing__toggler  #discount{
+    color: rgb(72, 135, 218);
+    font-weight: bold;
+    padding-right: 20px;
+}
+.pricing__toggler >div{
+    line-height: 2.8rem;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.pricing__toggler #year{
+    opacity: 0.5;
+}
+.pricing__toggler #month{
+    opacity: 0.5;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 32px;
+    margin: 0 15px;
+  }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(36, 118, 212);
+    transition: .4s;
+    border-radius: 16px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(33px);
+  }
+
+  .card{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 100px;
+      text-align: center;
+  }
+
+  /* starter */
+  .starter{
+      border: 1px solid rgb(226, 225, 225);
+      border-radius: 10px;
+      height: 670px;
+      width: 280px;
+      text-align: center;
+  }
+
+  .starter #color1{
+      border-bottom: 1px solid rgb(230, 230, 230);
+      padding-top: 15px;
+      background-color: rgb(230, 230, 230);
+      border-radius: 3px;
+  }
+  .starter #name1{
+      text-align: center;
+      font-size: 25px;
+      color: rgb(61, 61, 61);
+      margin-top: 25px;
+      border-bottom: 1px solid rgb(230, 230, 230);
+      padding-bottom: 25px;
+  }
+
+  .dis1{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+  }
+  .dis1>h3{
+    color: red;
+    margin-right: 10px;
+    font-size: 23px;
+  }
+  .dis1>h4{
+      color: rgb(158, 158, 158);
+      text-decoration: line-through;
+      padding-top: 5px;
+  }
+
+  .pr1{
+      display: flex;
+      flex-direction: row;
+      padding-left: 60px;
+      padding-bottom: 40px;
+  }
+.starter #price1{
+    font-weight: bolder;
+    font-size: 37px;
+    color: rgb(43, 42, 42);
+}
+.starter #month1{
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 15px;
+    padding-left: 5px;
+    
+}
+
+.starter #exp{
+    /* width: 180px; */
+    color: rgb(129, 129, 129);
+    font-weight: normal;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 22px;
+}
+.starter>li{
+    text-align: left;
+    padding-top: 21px;
+    color: rgb(75, 74, 74);
+    margin-top: 10px;
+    padding-left: 45px;
+}
+.starter>li>strong{
+    color: rgb(0, 119, 255);
+}
+
+/* business */
+.business{
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 10px;
+    height: 670px;
+    width: 280px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.business #color2{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-top: 15px;
+    background-color: rgb(255, 209, 59);
+    border-radius: 3px;
+}
+.business #name2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(61, 61, 61);
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 25px;
+}
+
+.dis2{
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+}
+.dis2>h3{
+  color: red;
+  margin-right: 10px;
+  font-size: 23px;
+}
+.dis2>h4{
+    color: rgb(158, 158, 158);
+    text-decoration: line-through;
+    padding-top: 5px;
+}
+
+.pr2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+.business #price2{
+  font-weight: bolder;
+  font-size: 37px;
+  color: rgb(43, 42, 42);
+}
+.business #month2{
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 15px;
+  padding-left: 5px;
+  
+}
+
+.business #exp2{
+  /* width: 180px; */
+  color: rgb(129, 129, 129);
+  font-weight: normal;
+  font-size: 14px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  padding-bottom: 22px;
+}
+.business>li{
+  text-align: left;
+  padding-top: 21px;
+  color: rgb(75, 74, 74);
+  margin-top: 10px;
+  padding-left: 45px;
+}
+.business>li>strong{
+  color: rgb(0, 119, 255);
+}
+.business>li>img{
+    width: 15px;
+}
+
+/* premium */
+.premium{
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 10px;
+    height: 670px;
+    width: 280px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.premium #color3{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-top: 15px;
+    background-color: rgb(36, 118, 212);
+    border-radius: 3px;
+}
+.premium #name3{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(61, 61, 61);
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 25px;
+}
+
+.dis3{
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+}
+.dis3>h3{
+  color: red;
+  margin-right: 10px;
+  font-size: 23px;
+}
+.dis3>h4{
+    color: rgb(158, 158, 158);
+    text-decoration: line-through;
+    padding-top: 5px;
+}
+
+.pr3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+.premium #price3{
+  font-weight: bolder;
+  font-size: 37px;
+  color: rgb(43, 42, 42);
+}
+.premium #month3{
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 15px;
+  padding-left: 5px;
+  
+}
+
+.premium #exp3{
+  /* width: 180px; */
+  color: rgb(129, 129, 129);
+  font-weight: normal;
+  font-size: 14px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  padding-bottom: 22px;
+}
+.premium>li{
+  text-align: left;
+  padding-top: 21px;
+  color: rgb(75, 74, 74);
+  margin-top: 10px;
+  padding-left: 45px;
+}
+.premium>li>strong{
+  color: rgb(0, 119, 255);
+}
+.premium>li>img{
+    width: 15px;
+}
+/* enter */
+.enter{
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 10px;
+    height: 670px;
+    width: 280px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.enter #color4{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-top: 15px;
+    background-color: rgb(48, 50, 51);
+    border-radius: 4px;
+}
+.enter #name4{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(61, 61, 61);
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 25px;
+}
+
+.enter .ask{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 35px;
+}
+.enter #price4{
+  /* width: 180px; */
+  color: rgb(100, 100, 100);
+  font-weight: bold;
+  font-size: 17px;
+  padding-top: 60px;
+  padding-bottom: 22px;
+}
+
+.enter #enterbtn{
+    background-color: transparent;
+    border: 2px solid rgb(70, 70, 70);
+    cursor: pointer;
+    outline: none;
+    width: 190px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.enter>li{
+  text-align: left;
+  padding-top: 21px;
+  color: rgb(75, 74, 74);
+  margin-top: 10px;
+  padding-left: 45px;
+}
+.enter>li>strong{
+  color: rgb(0, 119, 255);
+}
+.enter>li>img{
+    width: 15px;
+}
+#vat{
+    color: rgb(126, 125, 125);
+    float: right;
+    margin-right: 380px;
+    padding-top: 20px;
+}
