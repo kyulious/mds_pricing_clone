@@ -15,7 +15,12 @@ const ps3 = document.getElementById("ps3");
 const price3 = document.getElementById("price3");
 const month3 = document.getElementById("month3");
 
-
+const qm1 = document.getElementById("qm1");
+const qm2 = document.getElementById("qm2");
+const qm3 = document.getElementById("qm3");
+const qm4 = document.getElementById("qm4");
+const qm5 = document.getElementById("qm5");
+const qm6 = document.getElementById("qm6");
 
 toggle.addEventListener('click', function(){
     if(toggle.checked == true){
@@ -60,3 +65,4 @@ toggle.addEventListener('click', function(){
         month3.style.paddingTop="15px";
     }
 })
+
