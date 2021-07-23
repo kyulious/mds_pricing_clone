@@ -20,7 +20,7 @@ ul, li{
     height: 50px;
     position: relative;
     top: 10px;
-    left: 250px;
+    left: 240px;
 }
 .header>li{
     padding-left: 30px;
@@ -711,8 +711,131 @@ ul, li{
   display: block;
 }
 #vat{
-    color: rgb(126, 125, 125);
-    float: right;
-    margin-right: 380px;
-    padding-top: 20px;
+  text-align: center;
+  color: gray;
+  padding-left: 1070px;
+}
+
+@media screen and (max-width: 1400px) {
+  .header #loginbtn{
+    border: 1px solid #fff;
+    background-color: transparent;
+    width: 80px;
+    height: 33px;
+    color: #fff;
+    position: relative;
+    top: 19px;
+    left: 30%;
+    cursor: pointer;
+}
+.header #trialbtn{
+    border: none;
+    background-color: rgb(255, 209, 59);
+    width: 140px;
+    height: 33px;
+    text-align: center;
+    position: relative;
+    top: 19px;
+    left: 31%;
+    font-weight: bolder;
+    cursor: pointer;
+}
+}
+
+@media screen and (max-width: 1200px){
+  #vat{
+    display: block;
+  }
+  .header{
+    margin-left: -220px;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card .starter{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+  }
+  .card .dis1{
+    padding-left: 180px;
+  }
+  .card .pr1{
+    padding-left: 180px;
+  }
+  .card #exp{
+    position: relative;
+    top: -15px;
+    border-bottom: none;
+  }
+  .starter>li{
+    display: none;
+  }
+  .card .business{
+    width: 500px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .card .dis2{
+    padding-left: 180px;
+  }
+  .card .pr2{
+    padding-left: 180px;
+  }
+  .card #exp2{
+    position: relative;
+    top: -15px;
+    border-bottom: none;
+  }
+  .business>li{
+    display: none;
+  }
+  .card .premium{
+    width: 500px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .card .dis3{
+    padding-left: 180px;
+  }
+  .card .pr3{
+    padding-left: 180px;
+  }
+  .card #exp3{
+    position: relative;
+    top: -15px;
+    border-bottom: none;
+  }
+  .premium>li{
+    display: none;
+  }
+  .card .enter{
+    width: 500px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .card .dis4{
+    padding-left: 180px;
+  }
+  .card .pr4{
+    padding-left: 180px;
+    margin-top: -10px;
+  }
+  .card #exp4{
+    position: relative;
+    top: -15px;
+    border-bottom: none;
+  }
+  .enter>li{
+    display: none;
+  }
+  #vat{
+    display: none;
+  }
 }
